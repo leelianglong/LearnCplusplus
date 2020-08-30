@@ -58,6 +58,10 @@ int main(void)
 }
 ```
 
+上面代码的运行结果：
+
+![https://github.com/leelianglong/LearnCplusplus/blob/master/icon/class.PNG]
+
 ### const 在类中使用
 
 1、const可以在类中修饰成员变量，也可以修饰方法。如下：
