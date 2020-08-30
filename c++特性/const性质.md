@@ -20,7 +20,8 @@ Apple::Apple(int i):apple_number(i) // 这里：的作用是给const类型的成
     cout<<"struct function execute"<<endl;
 }
 
-void Apple::add(int num){
+void Apple::add(int num)
+{
     cout << "non const function execte" << endl;
     take(num); // 这里take不需要类型限定符Apple,是因为类中优先调自己的成员变量。
 }
@@ -62,10 +63,33 @@ int main(void)
 
 ![运行结果](https://github.com/leelianglong/LearnCplusplus/blob/master/icon/class.PNG)
 
+运行结果：
+struct function execute
+getCount function execute
+take function, num=1
+const function execte
+take function, num=1
+2
+non const function execte
+take function, num=10
+struct function execute
+const function execte
+take function, num=100
+请按任意键继续. . .
+
+
+
 ### const 在类中使用
 
-1、const可以在类中修饰成员变量，也可以修饰方法。如下：
+1、const可以在类中修饰成员变量，也可以修饰方法。如上面代码所示，修饰方法时，const在方法最后写，修饰变量时，写在变量前面。
 
+2、const对象只能访问const的成员变量和成员函数，非const的对象可以访问任意的成员变量和函数。同样的一个const的方法也只能调用其他const的方法，不能调用非const的方法
 
-2、const对象只能访问const的成员变量和成员函数，非const的对象可以访问任意的成员变量和函数。
+3、定义一个对象时，最先执行的是这个类的构造函数，如上面运行结果所示。
+
+4、::的作用有下面几个：
+   ：：是作用域操作符，void A::f() 表示 f是 类A中的方法
+   全局作用域符号.当全局变量在局部函数中与其中某个变量重名，那么就可以用::来区分。 ：： int global_variable_name;
+   作用域分解符，当一个类中定义了一个方法，但是没有给出实现，则可以在外面给出实现。 如上图中所有的方法都是这种写法 void Apple::add(int num)
+   引用类中的方法，如System::Math::Sqrt()。
 
