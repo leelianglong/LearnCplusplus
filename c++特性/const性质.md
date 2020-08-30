@@ -60,7 +60,7 @@ int main(void)
 
 上面代码的运行结果：
 
-![运行结果][https://github.com/leelianglong/LearnCplusplus/blob/master/icon/class.PNG]
+![运行结果](https://github.com/leelianglong/LearnCplusplus/blob/master/icon/class.PNG)
 
 ### const 在类中使用
 
