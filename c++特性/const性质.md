@@ -86,12 +86,12 @@ int main(void)
 3. 定义一个对象时，最先执行的是这个类的构造函数，如上面运行结果所示。
 
 4. ::的作用有下面几个：
-  + ：：是作用域操作符，void A::f() 表示 f是 类A中的方法
-  + 全局作用域符号.当全局变量在局部函数中与其中某个变量重名，那么就可以用::来区分。 ：： int global_variable_name;
-  + 作用域分解符，当一个类中定义了一个方法，但是没有给出实现，则可以在外面给出实现。 如上图中所有的方法都是这种写法 void Apple::add(int num)
-  + 引用类中的方法，如System::Math::Sqrt()。
+      + ：：是作用域操作符，void A::f() 表示 f是 类A中的方法
+      + 全局作用域符号.当全局变量在局部函数中与其中某个变量重名，那么就可以用::来区分。 ：： int global_variable_name;
+      + 作用域分解符，当一个类中定义了一个方法，但是没有给出实现，则可以在外面给出实现。 如上图中所有的方法都是这种写法 void Apple::add(int num)
+      + 引用类中的方法，如System::Math::Sqrt()。
   
 5. :的作用
-  * 继承性， 子类：父类
-  * 对类中const 成员变量的初始化 Apple::Apple(int i):apple_number(i) 这里就是把i赋值给const变量apple_number
+      * 继承性， 子类：父类
+      * 对类中const 成员变量的初始化 Apple::Apple(int i):apple_number(i) 这里就是把i赋值给const变量apple_number
 
