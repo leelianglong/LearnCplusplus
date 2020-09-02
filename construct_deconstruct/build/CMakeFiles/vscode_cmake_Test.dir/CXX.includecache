@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/vscode_cplusplus_project/construct_deconstruct/stock10.cpp
+iostream
+-
+stock10.h
+E:/vscode_cplusplus_project/construct_deconstruct/stock10.h
+
+E:/vscode_cplusplus_project/construct_deconstruct/stock10.h
+string
+-
+
+E:/vscode_cplusplus_project/construct_deconstruct/useStock.cpp
+iostream
+-
+stock10.h
+E:/vscode_cplusplus_project/construct_deconstruct/stock10.h
+

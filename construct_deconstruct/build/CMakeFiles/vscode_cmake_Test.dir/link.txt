@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\vscode_cmake_Test.dir/objects.a
+D:\mingw32\bin\ar.exe cr CMakeFiles\vscode_cmake_Test.dir/objects.a @CMakeFiles\vscode_cmake_Test.dir\objects1.rsp
+D:\mingw32\bin\i686-w64-mingw32-g++.exe  -g -g -Wl,--whole-archive CMakeFiles\vscode_cmake_Test.dir/objects.a -Wl,--no-whole-archive -o vscode_cmake_Test.exe -Wl,--out-implib,libvscode_cmake_Test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\vscode_cmake_Test.dir\linklibs.rsp

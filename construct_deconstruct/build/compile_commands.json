@@ -1,0 +1,12 @@
+[
+{
+  "directory": "E:/vscode_cplusplus_project/construct_deconstruct/build",
+  "command": "D:\\mingw32\\bin\\i686-w64-mingw32-g++.exe    -g -g -o CMakeFiles\\vscode_cmake_Test.dir\\stock10.cpp.obj -c E:\\vscode_cplusplus_project\\construct_deconstruct\\stock10.cpp",
+  "file": "E:/vscode_cplusplus_project/construct_deconstruct/stock10.cpp"
+},
+{
+  "directory": "E:/vscode_cplusplus_project/construct_deconstruct/build",
+  "command": "D:\\mingw32\\bin\\i686-w64-mingw32-g++.exe    -g -g -o CMakeFiles\\vscode_cmake_Test.dir\\useStock.cpp.obj -c E:\\vscode_cplusplus_project\\construct_deconstruct\\useStock.cpp",
+  "file": "E:/vscode_cplusplus_project/construct_deconstruct/useStock.cpp"
+}
+]
